@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: white;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(206, 201, 201);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+        nav{
+            background-color: rgb(107, 107, 107);
+            padding: 10px;
+            width: 500px;
+            box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.445);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer > p{
+            margin: 0px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+            <a href="#"> link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus consequatur ratione fugiat harum quaerat saepe quasi, sed illo? Earum aspernatur temporibus veritatis nesciunt voluptatibus mollitia sapiente dolore dolorem architecto nobis.</p>
+                <aside>
+                    <p>Artigo escrito por Burgdurf, Felipe</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Felipe webdesigner</p>
+    </footer>
+
+    
+</body>
+</html>

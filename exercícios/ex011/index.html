@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 0010</title>
+</head>
+<h1>Imagens dinâmicas</h1>
+<p>Imagnens dinâmicas são aquelas que se adaptam ao site, dispositivo de busca.</p>
+<p>Usando a tag &lt pictura &gt e a tag source media type acima, como no exemplo a seguir:</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/img-pequena.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/img-media.png" type="image/png">
+    <img src="imagens/img-grande.png" alt="imagem grande">
+</picture>
+<body>
+    <h1>Reproduzindo áudio em HTML</h1>
+    <p>para reproduzir um áudio usa-se a tag &lt audio &gt</p>
+    <audio src="midia/amigo-taxista.mp3" controls autoplay></audio>
+    <p>Outra forma de botar áudio é:</p>
+    <audio preload="metadata" controls>
+        <source src="midia/young.mp3" type="audio/mpeg">
+        <source src="midia/young.ogg" type="audio/ogg">
+        <source src="midia/young.mp3" type="audio/wav">
+        <p><a href="midia/young.mp3" download="midia/young.mp3" type="audio/mpeg">Seu navegador não suporta nenhum tipo de áudio</a></p>
+    
+</body>
+</html>

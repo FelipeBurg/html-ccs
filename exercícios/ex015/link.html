@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        h1{
+            font-size: 40px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a{
+            font: bold 16px 'work sans', sans-serif ;
+            color: red;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: darkred;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '>>>';
+        }
+        a::before{
+            content: '<<<';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Personalização de links</h1>
+    <ul>
+        <li class="especial"><a href="https://www.youtube.com/watch?v=-EBdqy6IzHY&list=RDMM_52xzJVXMe4&index=2" target="_blank"> Luan Santana - Sogrão caprichou</a></li>
+        </a>
+        <li><a href="https://www.youtube.com/watch?v=bZ7geVhkWqA&list=RDMM_52xzJVXMe4&index=4" target="_blank">Jorge & Matheus - Louca de saudade</a></li>
+        </a>
+        <li><a href="https://www.youtube.com/watch?v=ZO2MpAEbAbg&list=RDMM_52xzJVXMe4&index=5" target="_blank">Cesar Menotti & Fabiao - Tarde demais</a></li>
+
+    </ul>
+
+    
+</body>
+</html>
