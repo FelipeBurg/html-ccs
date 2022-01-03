@@ -6,41 +6,42 @@
 }
 :root{
     --font0: 'Dream';
-    --font01: 'Open Sans';
+    --font01: 'Amatic SC';
     --font03: 'Arial' serif;
-    --cor01: #44281aee;
-    --cor03: #DB072D;
-    --cor04: #BF622C;
+    --cor01: #BF0426;
+    --cor03:  #F2D7B6;
+    --cor04: #F20505;
 }
 body{
     margin: 0px;
 }
 header{
-    background-color: var(--cor01);
-    margin: 10px;
+    background-image: linear-gradient(to top,#BF0426 , #800319 , #49010f);
+    margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
-h1{
+header > h1{
     text-align: center;
-    font-family: 'Dream';
-    font-size: 3em;
+    font-family: var(--font0);
+    font-size: 3vw;
     color: white;
     margin: 0px 0px 0px 0px;
 }
 header > p{
     text-align: center;
-    font-family: 'Dream';
-    font-size: 16px;
+    font-family: var(--font0);
+    font-size: 1.7vw;
     color: white;
+    text-shadow: 2px 1px 1px black;
 }
 nav{
-    margin: 30px 250px 30px 250px;
+    margin: 15px 250px 15px 250px;
     border-radius: 30px 30px 30px 30px;
     color: white;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 5px 10px 5px;
 }
 a{
     color:var(--cor03);
@@ -53,3 +54,4 @@ a:hover{
     color: var(--cor04);
     
 }
+
