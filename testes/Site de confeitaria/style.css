@@ -57,12 +57,12 @@ nav > a:hover{
     text-decoration: line-through;
     color: black;
 }
-#conttotal{
+.conttotal{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.contprincipal{
+.divs{
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -79,9 +79,21 @@ nav > a:hover{
     font-family: var(--font0);
     font-size: 2.5vw;
 }
-.img01{
+.img{
     width: 40vw;
     margin: 30px;
     border-radius: 50px 50px;
     border: 1px solid black;
+    background-attachment: fixed;
+}
+#teste{
+    width: 40vw;
+    height: 25vw;
+    margin: 30px;
+    border-radius: 50px 50px;
+    border: 1px solid black;
+    background-attachment: fixed;
+    background-position: right top;
+    object-fit: contain;
+    background-image: url(bolo/Confeitaria.jpg);
 }
