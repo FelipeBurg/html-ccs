@@ -97,3 +97,32 @@ nav > a:hover{
     object-fit: contain;
     background-image: url(bolo/Confeitaria.jpg);
 }
+footer{
+    padding-top: 1vw;
+    padding-bottom: 29px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #49010f, #800319, #BF0426 );
+}
+.text{
+    font-family: 'Eb Garamond';
+    font-weight: bold;
+    font-size: 2vw;
+
+}
+.contato{
+    font-size: 3vw;
+    flex-direction: column;
+}
+.logo{
+    width: 5vw;
+    padding-right: 22px;
+}
+body >h3{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+}
