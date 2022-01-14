@@ -26,9 +26,16 @@ main{
     margin-top: 0px;
     padding: 10px;
     background-color: white;
+    position: relative;
 }
 header{
-    background-image: linear-gradient(to top,#BF0426 , #800319 , #49010f);
+    position: relative;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    background-image: linear-gradient(to bottom, #ff9a9e 54%, #fad0c4 99%, #fad0c4 100%);
+    align-items: flex-end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
 }
 header > h1{
     text-align: center;
@@ -37,21 +44,25 @@ header > h1{
     font-size: 4.9vw;
     font-family: 'Dream';
     text-shadow: 2px 2px 2px black;
-    margin: auto;
 }
+.trigo{
+    display: flex;
+    align-self: center;
 
+
+}
 
 header > nav{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.068);
     width: 250px;
-    margin-left: 20px;
+    margin-left: 70px;
     gap: 40px;
-    font-size: 1.7vw;
+    font-size: 1.7vw; 
 }
 nav > a{
     text-decoration: none;
-    color: white;
+    color: rgb(68, 44, 13);
+    font-weight: bold;
 }
 nav > a:hover{
     text-decoration: line-through;
@@ -92,7 +103,6 @@ nav > a:hover{
     margin: 30px;
     border-radius: 50px 50px;
     border: 1px solid black;
-    background-attachment: fixed;
     background-position: right top;
     object-fit: contain;
     background-image: url(bolo/Confeitaria.jpg);
@@ -103,7 +113,7 @@ footer{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
-    background-image: linear-gradient(to top, #49010f, #800319, #BF0426 );
+    background-image: linear-gradient(to top, #ff9a9e 54%, #fad0c4 99%, #fad0c4 100%);
 }
 .text{
     font-family: 'Eb Garamond';
@@ -125,4 +135,17 @@ body >h3{
     text-align: center;
     font-size: 15px;
     padding: 5px;
+}
+#contatos{
+    background-color: rgba(226, 52, 52, 0.582);
+    position: fixed;
+    right: 0px;
+    bottom: 203px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    border-radius: 5px 0px 0px 5px;
+}
+.face{
+    margin-bottom: 10px;
 }
